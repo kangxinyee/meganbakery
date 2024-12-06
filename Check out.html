@@ -1,0 +1,81 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+
+
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Megan">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="megan@example.com">
+            <label for="adr">Address</label>
+            <input type="text" id="adr" name="address" placeholder="28 Jalan Indah">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" placeholder="Ipoh">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="Perak">
+              </div>
+              <div class="col-50">
+                <label for="zip">Postcode</label>
+                <input type="text" id="Postcode" name="Postcode" placeholder="31350">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <img src="payment.png" alt="">
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="Ms. Megan">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="January">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2024">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="1234">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        
+   
+     <input type="submit" value="Proceed to checkout" class="btn" formaction="index.html" >
+        </a>
+      </form>
+    </div>
+  </div>
+
+
+
+
+     
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
